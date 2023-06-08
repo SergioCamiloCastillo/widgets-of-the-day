@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:widgetsoftheday/config/app_theme.dart';
+import 'package:widgetsoftheday/homepage.dart';
 
 void main() {
   runApp(const MainApp());
@@ -9,12 +11,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
-    );
+    return MaterialApp(theme: AppTheme().getTheme(), home: const HomePage());
   }
 }
