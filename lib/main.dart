@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgetsoftheday/bottom_navbar.dart';
 import 'package:widgetsoftheday/column_row_screen.dart';
 import 'package:widgetsoftheday/config/app_theme.dart';
 import 'package:widgetsoftheday/container_screen.dart';
@@ -19,6 +20,6 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        theme: AppTheme().getTheme(), home: const GestureDetectorScreen());
+        theme: AppTheme().getTheme(), home: const BottomNavBar());
   }
 }

@@ -8,12 +8,37 @@ class GestureDetectorScreen extends StatefulWidget {
 }
 
 class _GestureDetectorScreenState extends State<GestureDetectorScreen> {
+  int nomberOfTimesTapped = 0;
+
+  void _increaseNumber() {
+    setState(() {
+      nomberOfTimesTapped++;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Column(
-          children: [Text("Hizo tantos clicks"), Text("Haz click aqui")],
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Text(
+                "Hizo ${nomberOfTimesTapped.toString()} clicks",
+                style: TextStyle(fontSize: 30),
+              ),
+              GestureDetector(
+                onTap: _increaseNumber,
+                child: Container(
+                    color: Colors.green[200],
+                    child: Text(
+                      "Haz click aqui",
+                      style: TextStyle(fontSize: 30),
+                    )),
+              )
+            ],
+          ),
         ),
       ),
     );
