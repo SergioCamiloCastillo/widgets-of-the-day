@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgetsoftheday/appbar_screen.dart';
 import 'package:widgetsoftheday/bottom_navbar.dart';
 import 'package:widgetsoftheday/column_row_screen.dart';
 import 'package:widgetsoftheday/config/app_theme.dart';
@@ -20,6 +21,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        theme: AppTheme().getTheme(), home: const BottomNavBar());
+      debugShowCheckedModeBanner: false,
+        theme: AppTheme().getTheme(), home: const AppbarScreen());
   }
 }

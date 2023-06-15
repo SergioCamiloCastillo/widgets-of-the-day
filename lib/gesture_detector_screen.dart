@@ -8,11 +8,11 @@ class GestureDetectorScreen extends StatefulWidget {
 }
 
 class _GestureDetectorScreenState extends State<GestureDetectorScreen> {
-  int nomberOfTimesTapped = 0;
+  int numberOfTimesTapped = 0;
 
   void _increaseNumber() {
     setState(() {
-      nomberOfTimesTapped++;
+      numberOfTimesTapped++;
     });
   }
 
@@ -25,7 +25,7 @@ class _GestureDetectorScreenState extends State<GestureDetectorScreen> {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               Text(
-                "Hizo ${nomberOfTimesTapped.toString()} clicks",
+                "Hizo ${numberOfTimesTapped.toString()} clicks",
                 style: TextStyle(fontSize: 30),
               ),
               GestureDetector(
