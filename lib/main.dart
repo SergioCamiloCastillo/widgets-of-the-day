@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:widgetsoftheday/column_row_screen.dart';
 import 'package:widgetsoftheday/config/app_theme.dart';
-import 'package:widgetsoftheday/homepage.dart';
+import 'package:widgetsoftheday/container_screen.dart';
+import 'package:widgetsoftheday/expanded_screen.dart';
+import 'package:widgetsoftheday/gesture_detector_screen.dart';
+import 'package:widgetsoftheday/gridview_screen.dart';
+import 'package:widgetsoftheday/image_screen.dart';
+import 'package:widgetsoftheday/list_view_screen.dart';
+import 'package:widgetsoftheday/round_corner_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -11,6 +18,7 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(theme: AppTheme().getTheme(), home: const HomePage());
+    return MaterialApp(
+        theme: AppTheme().getTheme(), home: const GestureDetectorScreen());
   }
 }
