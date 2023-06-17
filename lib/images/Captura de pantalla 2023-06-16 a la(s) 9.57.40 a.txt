@@ -1,0 +1,25 @@
+5. Numeros diferentes
+
+A tu equipo de desarrollo el cliente les ha pedido
+realizar un algoritmo de indexación y optimización
+de almacenamiento en el proceso de inventario.
+Sin embargo el equipo tiene problemas con un
+método que no saben como realizar de forma
+óptima y te han pedido ayuda para resolverlo.
+Siguiendo el Principio de responsabilidad única
+(SRP), vas a construir una función que tiene como
+única responsabilidad calcular la cantidad de
+números diferentes dentro de una lista dada.
+
+Function Description
+
+Complete la función en el editor abajo, la función
+recibe la lista de tareas, y debe retornar la
+cantidad de valores únicos que existen.
+
+Constraints
+
+N < 100.000
+Xi < 1.000.000.000
+
+IA IA

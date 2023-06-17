@@ -1,0 +1,34 @@
+La plantilla convertirá el true en 1 y false en 0
+automáticamente
+
+Function Description
+Complete la función, que recibirá un arreglo de
+casos a evaluar por el arquitecto.
+
+cada caso se compondrá de la siguiente manera
+
+* casof[i][0] (D) Número de días para el deadline
+
+* casof[i][1] (T) Número de funciones esperadas por
+el cliente al finalizar el deadline
+
+* casof[i][2] (F) Número de funciones nuevas que
+puede escribir Ricardo en un día
+
+* caso[il[3] (R) Número de funciones que borrará
+Ricardo al finalizar el día
+
+Constraints
+
+0 < D <= 10000
+1 <= T <= 5000
+1<= F <= 5000
+F<= R => 5000
+
+A
+"
+
+Thkho
+A A
+HI HI
+Indo

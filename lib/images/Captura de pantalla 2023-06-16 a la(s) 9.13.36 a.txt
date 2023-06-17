@@ -1,0 +1,31 @@
+Sample Input For Custom Testing
+
+1
+RUULLLDDDR
+
+Sample Output
+
+4
+
+Explanation
+Ruta: RUULLLDDDR el robot se moverá como se ve er
+s|s|laja
+7 2
+8 oa
+9 |10
+
+Siguiendo esta ruta, el punto 6 sería el punto más lejar
+base, y necesitaría 4 instrucciones para poder retornar
+(RDRD o RRDD o DDRR o DRDR).
+
+y Sample Case 1
+
+Sample Input For Custom Testing
+
+2
+u
+vuU
+
+Sample Output
+
+1

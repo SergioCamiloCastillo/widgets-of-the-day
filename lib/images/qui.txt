@@ -1,0 +1,21 @@
+Explanation
+
+El cliente espera en 5 días que Ricardo escriba
+110 funciones, Ricardo podrá escribir 30
+funciones, pero finalizando el día borrará 10 de
+las funciones escritas.
+
+Cada día Ricardo escribirá 25 funciones, pero
+borrará 5, al finalizar el día 4 Ricardo tendrá 80
+funciones en código, como el día 5 podría
+escribir 30 funciones nuevas terminaría su
+trabajo y enviaría el pull request sin borrar
+ninguna función, Ricardo cumpliría con el
+deadline.
+
+Dia Total Funciones
+Dia 1 20
+Dia 2 40
+Dia 3 80
+Dia 4 60
+Dia 5 110

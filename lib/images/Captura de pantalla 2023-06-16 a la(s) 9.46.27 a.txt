@@ -1,0 +1,23 @@
+Explanation
+
+Si el equipo (1) tiene 2 tareas asignadas, el
+promedio para hacer dichas tareas es 4 horas y
+la tarea más pequeña tiene una duración
+estimada de 2 horas, la tarea más grande
+debería ser de 6 horas.
+
+AVG(6,2) = 4
+
+Si el equipo (2) tiene 3 tareas asignadas, el
+promedio para hacer dichas tareas es 16 horas
+y la tarea más pequeña tiene una duración
+estimada de 8 horas, la tarea más grande nunca
+pasará las 32 horas.
+
+Si hacemos la tarea 1 la más pequeña de 8
+horas, la tarea 2 la hacemos lo más grande
+posible que son 32 horas y la tarea 3 de 8 horas
+más, el promedio serán las 16 horas
+estipuladas.
+
+AVG (32, 8, 8) = 16

@@ -1,0 +1,3 @@
+Primero ingresara un entero N definiendo la cantidad de planes
+que la NASA quiere evaluar, luego existirán N líneas con las
+cadenas de instrucciones
