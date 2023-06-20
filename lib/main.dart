@@ -11,6 +11,7 @@ import 'package:widgetsoftheday/image_screen.dart';
 import 'package:widgetsoftheday/list_view_screen.dart';
 import 'package:widgetsoftheday/round_corner_screen.dart';
 import 'package:widgetsoftheday/sliverbar_screen.dart';
+import 'package:widgetsoftheday/tabbar_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -23,6 +24,6 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-        theme: AppTheme().getTheme(), home: const SliverBarScreen());
+        theme: AppTheme().getTheme(), home: const TabBarScreen());
   }
 }
