@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgetsoftheday/animated_container.dart';
 import 'package:widgetsoftheday/appbar_screen.dart';
 import 'package:widgetsoftheday/bottom_navbar.dart';
 import 'package:widgetsoftheday/column_row_screen.dart';
@@ -24,6 +25,6 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-        theme: AppTheme().getTheme(), home: const TabBarScreen());
+        theme: AppTheme().getTheme(), home: const AnimatedContainerScreen());
   }
 }
