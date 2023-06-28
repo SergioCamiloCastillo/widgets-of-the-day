@@ -12,6 +12,7 @@ import 'package:widgetsoftheday/gridview_screen.dart';
 import 'package:widgetsoftheday/image_screen.dart';
 import 'package:widgetsoftheday/list_view_screen.dart';
 import 'package:widgetsoftheday/mediaquery_screen.dart';
+import 'package:widgetsoftheday/ricktext_screen.dart';
 import 'package:widgetsoftheday/round_corner_screen.dart';
 import 'package:widgetsoftheday/sliverbar_screen.dart';
 import 'package:widgetsoftheday/tabbar_screen.dart';
@@ -26,7 +27,8 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-        theme: AppTheme().getTheme(), home: const AlertDialogScreen());
+        debugShowCheckedModeBanner: false,
+        theme: AppTheme().getTheme(),
+        home: const RichTextScreen());
   }
 }

@@ -46,7 +46,11 @@ class _AlertDialogScreenState extends State<AlertDialogScreen> {
             padding: const EdgeInsets.all(8.0),
             child: Text(
               "Show Dialog",
-              style: TextStyle(fontSize: 30),
+              style: TextStyle(
+                  fontSize: 30,
+                  fontStyle: FontStyle.italic,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.green),
             ),
           ),
         ),
