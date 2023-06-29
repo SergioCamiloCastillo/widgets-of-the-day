@@ -16,6 +16,8 @@ import 'package:widgetsoftheday/ricktext_screen.dart';
 import 'package:widgetsoftheday/round_corner_screen.dart';
 import 'package:widgetsoftheday/sliverbar_screen.dart';
 import 'package:widgetsoftheday/tabbar_screen.dart';
+import 'package:widgetsoftheday/tiktok_scroll_screen.dart';
+import 'package:widgetsoftheday/timer_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -29,6 +31,6 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         theme: AppTheme().getTheme(),
-        home: const RichTextScreen());
+        home:  TikTokScrollScreen());
   }
 }
