@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:widgetsoftheday/CoolAnimatedIconScreen.dart';
+import 'package:widgetsoftheday/InputKeyboard_screen.dart';
+import 'package:widgetsoftheday/Ontop_eachother_screen.dart';
 import 'package:widgetsoftheday/alert_dialog_screen.dart';
 import 'package:widgetsoftheday/animated_container.dart';
 import 'package:widgetsoftheday/appbar_screen.dart';
@@ -31,6 +34,6 @@ class MainApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         theme: AppTheme().getTheme(),
-        home:  TikTokScrollScreen());
+        home: CoolAnimatedIconScreen());
   }
 }
